@@ -1,0 +1,182 @@
+
+body {
+    overflow-x: hidden; 
+}
+
+.navbar-brand img {
+    height: auto;
+    width: auto;
+    max-height: 40px; 
+    max-width: 100%;
+  }
+
+  .navbar-transparent {
+    background-color: transparent !important;
+  }
+
+  .navbar-transparent .navbar-nav .nav-link {
+    color: #fff !important;
+  }
+
+  .navbar-transparent .navbar-toggler-icon {
+    background-color: #fff;
+  }
+
+  .iniciar-sessao {
+    background-color: #e90c0c; 
+    border-radius: 10px;
+  }
+
+  .banner {
+    position: relative;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+  }
+
+.share-main-image {
+    max-width: 100%; 
+    height: auto; 
+    
+}
+
+
+.calendar-main-image {
+    max-width: 100%; 
+    height: auto; 
+    
+}
+
+
+
+.avalie-main-image {
+    max-width: 100%; 
+    height: auto; 
+    
+}
+
+.container-fluid {
+    background-color: #0A0A0D;
+    color: #fff;
+    padding: 0; 
+}
+
+.navbar {
+    background-color: transparent;
+    width: 100%; 
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar>.container-fluid {
+    padding: 0; 
+}
+
+.imgbanner{
+  opacity:0.1;
+}
+
+
+
+.navbar-nav .nav-item.dropdown .nav-link {
+  border: 1px solid white;
+  border-radius: 10px; 
+}
+
+
+.navbar-nav .nav-item.dropdown .nav-link i {
+  margin-right: 5px; 
+}
+
+.row:not(.banner) {
+  border-top: 5px solid #343a40;
+}
+
+
+
+.banner-text-container {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.banner-text {
+  color: white; 
+  font-size: 60px; 
+  font-weight: bold;
+}
+
+.btn-iniciar-sessao {
+  background-color: #e90c0c;
+  color: white;
+}
+
+.btn-iniciar-sessao:hover {
+  color: #fff;
+}
+
+.share .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.calendar .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.avalie .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.sobrenos .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+
+/*Telas pequenas */
+
+@media (max-width: 767px) {
+  .banner-text-container h1 {
+    font-size: 32px; 
+  }
+
+  .banner-text-container h2 {
+    display: none; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

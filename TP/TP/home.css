@@ -1,0 +1,31 @@
+body {
+        padding-top: 54px; 
+}
+
+.logo-img {
+        max-height: 40px; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    padding: 0;
+    opacity: 1; /* Mantém as setas visíveis o tempo todo */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100%;
+    width: 100%;
+    background-color: black; /* Define a cor preta para as setas */
+}
+
+.carousel-control-prev {
+    margin-left: 0; 
+}
+
+.carousel-control-next {
+    margin-right: 0; 
+}
+
+
